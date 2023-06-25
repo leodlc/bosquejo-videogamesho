@@ -5,14 +5,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
 .landingPage .banner-wrapper {
     background-color: #ffffff;
-    border: 1px none;
-    height: 1024px;
+    height: 100%;
     overflow: hidden;
     width: 100%;
     display: flex;
@@ -20,23 +19,17 @@
 }
 
 .landingPage .banner {
-    height: 809px;
+    height: 100%;
     width: 100%;
 }
 
 .landingPage .overlap-group {
-    height: 917px;
-    position: relative;
-    width: 100%;
-}
-
-.landingPage .BG {
     background: linear-gradient(180deg, rgb(13, 13, 13) 12.92%, rgb(66, 39, 242) 93.12%);
     border: 1px solid;
     border-color: #000000;
     height: 809px;
     width: 100%;
-    display: flex;
+    position: relative;
 }
 
 .landingPage .header {

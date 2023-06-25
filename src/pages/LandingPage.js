@@ -10,7 +10,6 @@ const LandingPage = () => {
             <div className="banner-wrapper">
                 <div className="banner">
                     <div className="overlap-group">
-                        <div className="BG" />
                         <header className="header">
                             <NavBar/>
                         </header>
