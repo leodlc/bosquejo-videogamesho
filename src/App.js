@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './NavBar';
+import LandingPage from './pages/LandingPage.js';
 import Pc from './Pc';
 import PlayStation from './PlayStation';
 import Xbox from './Xbox';
@@ -10,8 +10,8 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
       <Routes>
+        <Route exact path="/" element={<LandingPage />} />
         <Route path="/pc" element={<Pc />} />
         <Route path="/playstation" element={<PlayStation />} />
         <Route path="/xbox" element={<Xbox />} />

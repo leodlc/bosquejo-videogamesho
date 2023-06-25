@@ -1,18 +1,9 @@
-:root{
-  --color1: #2C3333;
-  --color2: #2E4F4F ;
-  --color3: #0E8388  ;
-  --color4: #CBE4DE;
-  --colorAlt1: #13005A;
-  --colorAlt2: #00337C;
-  --colorAlt3: #1C82AD;
-  --colorAlt4: #03C988;
-}
+
 .nav-bar{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 300px;
-    background-color: var(--colorAlt1);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 300px;
+  background-color: transparent;
 }
 .nav-bar-logo{
   display: flex;
@@ -28,7 +19,7 @@
     width: 150px;
 }
 .highlight{
-  color: var(--colorAlt4);
+  color: #4227F2;
 }
 .nav-bar-gameCategories{
     display: flex;
@@ -36,7 +27,7 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-    color: var(--colorAlt4);
+    color: #4227F2;
 }
 .nav-bar-gameCategories_link{
     display: flex;
@@ -50,7 +41,7 @@
 
 .nav-bar-gameCategories_link a {
     text-decoration: none;
-    color: var(--color4);
+    color: white;
     transition: color 0.3s ease;
 }
 .nav-bar-gameCategories_link svg {
@@ -59,7 +50,7 @@
   }
   
   .nav-bar-gameCategories_link svg:hover {
-    color:var(--colorAlt4);
+    color: #4227F2;
     animation-name: moveUpDown;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -79,14 +70,14 @@
   }
 
 .nav-bar-gameCategories_link:hover a {
-    color: var(--colorAlt4);
+    color: #4227F2;
 }
 .nav-bar-gameCategories_link.active svg {
-    color: var(--colorAlt4);
+    color: #4227F2;
   }
   
   .nav-bar-gameCategories_link.active a {
-    color: var(--colorAlt4);
+    color: #4227F2;
   }
 .nav-bar-buttonLoginAndCart{
     display: flex;

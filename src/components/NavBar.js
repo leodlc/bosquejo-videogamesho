@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logonav from './assets/logo2.png';
+import logonav from '../assets/logo2.png';
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBagShopping, faUser, faDesktop, faGamepad } from '@fortawesome/free-solid-svg-icons';
@@ -12,8 +12,6 @@ const NavBar = () => {
   const handleClick = (link) => {
     setActiveLink(link);
   };
-
- 
 
   return (
     <div className="nav-bar">
