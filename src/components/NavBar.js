@@ -16,7 +16,8 @@ const NavBar = () => {
   return (
     <div className="nav-bar">
       <div className="nav-bar-logo">
-        <img src={logonav} alt="logo" />
+        <Link to="/"><img src={logonav} alt="logo" /></Link>
+        
         <h4>
           <span class="highlight">Discover</span> the 
           <span class="highlight"> essence</span> of fun
@@ -55,8 +56,8 @@ const NavBar = () => {
         </div>
       </div>
       <div className="nav-bar-buttonLoginAndCart">
-        <FontAwesomeIcon icon={faBagShopping} style={{ color: '#CBE4DE' }} size="1x" />
-        <FontAwesomeIcon icon={faUser} style={{ color: '#CBE4DE' }} size="1x" />
+        <FontAwesomeIcon icon={faBagShopping} style={{ color: 'white' }} size="1x" />
+        <FontAwesomeIcon icon={faUser} style={{ color: 'white' }} size="1x" />
       </div>
     </div>
   );
