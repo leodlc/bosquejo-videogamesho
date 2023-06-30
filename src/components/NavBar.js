@@ -18,11 +18,11 @@ const NavBar = () => {
       <div className="nav-bar-logo">
         <Link to="/"><img src={logonav} alt="logo" /></Link>
         
-        <h4>
-          <span class="highlight">Discover</span> the 
-          <span class="highlight"> essence</span> of fun
+        <h3>
+          <span class="highlight">GAME</span> STORE 
+          
           {/* <span class="highlight"> fun</span> */}
-        </h4>
+        </h3>
 
       </div>
       <div className="nav-bar-gameCategories">
